@@ -15,8 +15,6 @@ Note that this implementation is particularly designed to work with a specific i
 required paths and modifying the configuration based on tour dataset structure. In what follows, the functionality of each file in this repository is explained.
 You are welcome to adopt this implementation partially or fully for your project or research work.
 
-<img src="https://github.com/ShahinSHH/CAE-Transformer/blob/main/Figs/sample-ct.png" width="490" height="260"/>
-
 
 ## Framework
 CAE-Transformer is predictive transformer-based framework, developed to predict the invasiveness of Lung Cancer, more specifically <b>Lung Adenocarcinoma (LUAC)</b>.
@@ -26,6 +24,7 @@ Experimental results on the in-house dataset of 114 pathologically proven Sub-So
 demonstrate the superiority of the CAE-Transformer over the histogram/radiomics-based models and
 its DL-based counterparts.
 
+<img src="https://github.com/ShahinSHH/CAE-Transformer/blob/main/Figs/sample-ct.png" width="490" height="260"/>
 
 ## Preprocessing
 
