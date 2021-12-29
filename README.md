@@ -6,7 +6,7 @@ The detailed structure of the framework is availabele at <a href="https://arxiv.
 The provided codes are slightly different version of the proposed framework in the sense of number of layers, transformer heads, and hyper parameters. The overal structure of the framework and the implementation is, however, the same.
 
 
-<img src="https://github.com/ShahinSHH/CAE-Transformer/blob/main/Figs/cae-transformer.png" width="600" height="380"/>
+<img src="https://github.com/ShahinSHH/CAE-Transformer/blob/main/Figs/cae-transformer.png" width="630" height="450"/>
 
 ## IMPORTANT
 <b>!!! The provided files are not released for reproduction purposes. !!!</b>
