@@ -15,7 +15,7 @@ Note that this implementation is particularly designed to work with a specific i
 required paths and modifying the configuration based on tour dataset structure. In what follows, the functionality of each file in this repository is explained.
 You are welcome to adopt this implementation partially or fully for your project or research work.
 
-<img src="https://github.com/ShahinSHH/COVID-FACT/blob/main/Figures/heatmap1.jpg" width="500" height="350"/>
+<img src="https://github.com/ShahinSHH/CAE-Transformer/blob/main/Figs/sample-ct.png" width="490" height="260"/>
 
 
 ## Framework
