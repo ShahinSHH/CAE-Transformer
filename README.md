@@ -9,7 +9,7 @@ The provided codes are slightly different version of the proposed framework in t
 <img src="https://github.com/ShahinSHH/CAE-Transformer/blob/main/Figs/cae-transformer.png" width="630" height="450"/>
 
 ## IMPORTANT
-<b>!!! The provided files are not released for reproduction purposes. !!!</b>
+<h4>!!! The provided files are not released for reproduction!!!</h4>
 
 The aim is to provide further insight into  the implementation of different parts of the proposed pipeline
 for those interested in developing a similar framework.
