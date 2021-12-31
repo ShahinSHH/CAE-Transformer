@@ -31,7 +31,7 @@ its DL-based counterparts.
 ## Pipeline
 The following list outlines the step-by-step process taking place in the training and test steps proposed CAE-Transformer framework.
 
-* <b>Step 1: Lung Region Segmentation</b>
+* <h3>Step 1: Lung Region Segmentation</h3>
 
     All CT images are passed to a Lung Region Segmentation module to obtain lung areas and discard unimortant component in CT images.
     <br>
@@ -49,11 +49,11 @@ The following list outlines the step-by-step process taking place in the trainin
     <a href = "https://pytorch.org">https://pytorch.org</a>
 
 
-* <b>Step 2: Preprocessing</b>
+* <h3>Step 2: Preprocessing</h3>
 
-All images are resized from the original size of (512,512) into (256,256) and normalized using the Max-Min normalization function. The resizing and normalization functions are available in the <i>utils.py</i> file.
+    All images are resized from the original size of (512,512) into (256,256) and normalized using the Max-Min normalization function. The resizing and     normalization functions are available in the <i>utils.py</i> file.
 
-* <b>Step 3: Convolutional Auto-Encoder (CAE) and Pre-Training</b>
+* <h3>Step 3: Convolutional Auto-Encoder (CAE) and Pre-Training</h3>
 
      The extracted lung regions are then going to a Convolutional Auto-Encoder (CAE) to provide slice-level feature maps in an unsupervised fashion.
 
@@ -71,7 +71,7 @@ All images are resized from the original size of (512,512) into (256,256) and no
      <b>Note:</b> To comply with the input size requirements of the subsequet modules, all sequences are zero-padded to have the equal size of (25,256), in which   25 represents the maximum number of slices for each patient, and 256 is the number of extracted features from each slice.
 
 
-* <b>Step 4: Transformer</b>
+* <h3>Step 4: Transformer</h3>
 
   The following codes are used to implement and train the transformer-based classifier:
   * <i>transformers.py/i> : implements the transformer class
